@@ -2,7 +2,7 @@
   "checks": {
     "ssh_check": {
       "handlers": ["default"],
-      "command": "/etc/sensu/plugins/network/check-banner.rb -h 172.16.86.142 -p 22 -q 'OpenSSH'",
+      "command": "/etc/sensu/plugins/network/check-banner.rb -h 172.16.86.1 -p 22 -q 'OpenSSH'",
       "interval": 60,
       "subscribers": [ "default" ]
     }
